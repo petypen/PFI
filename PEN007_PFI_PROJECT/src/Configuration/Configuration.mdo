@@ -42,4 +42,5 @@
     <languageCode>ru</languageCode>
   </languages>
   <roles>Role.PEN007_ОсновнаяРоль</roles>
+  <commonModules>CommonModule.ПФИ</commonModules>
 </mdclass:Configuration>
