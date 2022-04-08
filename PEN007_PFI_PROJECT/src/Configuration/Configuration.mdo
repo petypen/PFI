@@ -41,6 +41,12 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <styleItems>StyleItem.ПоясняющийТекст</styleItems>
+  <commonPictures>CommonPicture.Предупреждение</commonPictures>
+  <commonPictures>CommonPicture.Предупреждение32</commonPictures>
+  <commonPictures>CommonPicture.ПиктограммыЭлементов</commonPictures>
+  <commonPictures>CommonPicture.Отчеты</commonPictures>
   <roles>Role.PEN007_ОсновнаяРоль</roles>
   <commonModules>CommonModule.ПФИ</commonModules>
+  <catalogs>Catalog.Пользователи</catalogs>
 </mdclass:Configuration>
