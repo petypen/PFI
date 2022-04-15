@@ -3394,7 +3394,6 @@
     </userVisible>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
-  <excludedCommands>WriteAndClose</excludedCommands>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>

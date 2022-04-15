@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="49b4573c-7628-4391-bf01-8766fc39755c" extendedConfigurationObject="579baaa4-6493-4d99-8744-6399757295c7">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="05a7ea09-f0cf-47ce-acf1-f408070006ee" extendedConfigurationObject="579baaa4-6493-4d99-8744-6399757295c7">
   <producedTypes>
-    <objectType typeId="bc8a4919-db1b-4ddc-900a-ed3c1a96d2d8" valueTypeId="647374a4-0cac-4e50-92ca-699b4dec861e"/>
-    <refType typeId="7346c80e-80ff-44df-9f12-fbd54f053927" valueTypeId="796d284a-8e22-4395-b2b8-1827bac69d4a"/>
-    <selectionType typeId="d82d4866-a369-4d6e-9c4e-286daceb0ee7" valueTypeId="8371de94-2c71-42f4-b2c5-79b53bbfff95"/>
-    <listType typeId="31c869a8-218b-4986-a2e0-03cd01660da2" valueTypeId="7f2265eb-d646-4173-a8bd-f46d87bfda82"/>
-    <managerType typeId="bddfbe42-217f-4d9d-a7e5-1b21f9060f45" valueTypeId="5eafd205-a6f9-48e3-a5be-9f9a29940e78"/>
+    <objectType typeId="3198ead7-b447-4766-9485-6271094140f5" valueTypeId="e3b60267-c8c5-466c-8854-f287ad7d1a17"/>
+    <refType typeId="f10458db-3e41-4c9f-bb6a-e3da17cf483c" valueTypeId="ba338443-51b5-42e9-a791-c375bc219604"/>
+    <selectionType typeId="922d5435-15cb-4521-b95a-3e4cb9a3dd22" valueTypeId="647a2766-e5f1-458a-9958-e80c98c24eb9"/>
+    <listType typeId="f733f40c-bee0-4058-9eab-3d51fb42896f" valueTypeId="f0daf567-6e93-4e34-a344-7cc5664f51ad"/>
+    <managerType typeId="9cc2731c-790a-46e8-8197-3b950fcb3157" valueTypeId="5c9a016b-360f-4e4f-a7f9-832489256806"/>
   </producedTypes>
   <name>Пользователи</name>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:CatalogExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+    <managerModule>Extended</managerModule>
   </extension>
-  <forms uuid="a75f9b32-5f52-45c6-8554-ba4cb3a2a584" extendedConfigurationObject="cb92dc2e-6053-4233-a408-4464514b1257">
+  <forms uuid="ecc8bb19-38ad-4e06-847d-e98b81ab3cc3" extendedConfigurationObject="cb92dc2e-6053-4233-a408-4464514b1257">
     <name>ФормаЭлемента</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFormExtension">

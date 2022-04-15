@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonPicture xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0add4a5e-f21d-44d2-bf14-3133f8756afc" extendedConfigurationObject="2997e4da-d831-48e4-96e2-c29f9d077302">
+<mdclass:CommonPicture xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="35c2bfaf-773b-4e65-b91a-d1bea26a74d9" extendedConfigurationObject="2997e4da-d831-48e4-96e2-c29f9d077302">
   <name>Отчеты</name>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:CommonPictureExtension">

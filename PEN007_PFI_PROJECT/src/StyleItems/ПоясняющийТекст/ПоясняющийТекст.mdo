@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d0b41454-9d2a-4b5c-af60-fc935efe7569" extendedConfigurationObject="ad87bd29-0ad1-4da4-ac62-38e714e0cb9f">
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8306a85a-42e9-481f-add7-147d047dd287" extendedConfigurationObject="ad87bd29-0ad1-4da4-ac62-38e714e0cb9f">
   <name>ПоясняющийТекст</name>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:StyleItemExtension">

@@ -42,11 +42,7 @@
       </contextMenu>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:PictureDecorationExtInfo">
-        <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Предупреждение</picture>
-        </picture>
-      </extInfo>
+      <extInfo xsi:type="form:PictureDecorationExtInfo"/>
     </items>
     <items xsi:type="form:Decoration">
       <name>СлужебныйПользовательНадпись</name>
@@ -93,7 +89,7 @@
       <type>Label</type>
       <autoMaxHeight>true</autoMaxHeight>
       <textColor xsi:type="core:ColorRef">
-        <color>Style.ПоясняющийТекст</color>
+        <color>0</color>
       </textColor>
       <extInfo xsi:type="form:LabelDecorationExtInfo">
         <horizontalAlign>Left</horizontalAlign>
@@ -175,11 +171,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <skipOnInput>false</skipOnInput>
-      <extInfo xsi:type="form:PictureDecorationExtInfo">
-        <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Предупреждение32</picture>
-        </picture>
-      </extInfo>
+      <extInfo xsi:type="form:PictureDecorationExtInfo"/>
     </items>
     <items xsi:type="form:FormGroup">
       <name>СвойстваПояснениеИКоманды</name>
@@ -263,7 +255,7 @@
             </extInfo>
           </extendedTooltip>
           <type>UsualButton</type>
-          <commandName>Form.Command.ЗаполнитьИзПользователяИБ</commandName>
+          <commandName>0</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -295,7 +287,7 @@
             </extInfo>
           </extendedTooltip>
           <type>UsualButton</type>
-          <commandName>Form.StandardCommand.Write</commandName>
+          <commandName>0</commandName>
           <representation>PictureAndText</representation>
           <width>10</width>
           <autoMaxWidth>true</autoMaxWidth>
@@ -450,11 +442,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <skipOnInput>false</skipOnInput>
-      <extInfo xsi:type="form:PictureDecorationExtInfo">
-        <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Предупреждение32</picture>
-        </picture>
-      </extInfo>
+      <extInfo xsi:type="form:PictureDecorationExtInfo"/>
     </items>
     <items xsi:type="form:Decoration">
       <name>СопоставлениеПояснениеНесоответствия</name>
@@ -548,9 +536,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>АдресФотографии</segments>
-      </dataPath>
       <titleLocation>None</titleLocation>
       <toolTip>
         <key>ru</key>
@@ -597,7 +582,7 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <commandName>Form.Command.ВыбратьФотографию</commandName>
+          <commandName>0</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -628,7 +613,7 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <commandName>Form.Command.ОчиститьФотографию</commandName>
+          <commandName>0</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -677,9 +662,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.Description</segments>
-          </dataPath>
           <extendedTooltip>
             <name>НаименованиеExtendedTooltip</name>
             <id>216</id>
@@ -730,9 +712,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.Недействителен</segments>
-          </dataPath>
           <titleLocation>Right</titleLocation>
           <toolTipRepresentation>Button</toolTipRepresentation>
           <extendedTooltip>
@@ -808,9 +787,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ФизическоеЛицо</segments>
-        </dataPath>
         <extendedTooltip>
           <name>ФизическоеЛицоРасширеннаяПодсказка</name>
           <id>298</id>
@@ -858,9 +834,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Подразделение</segments>
-        </dataPath>
         <extendedTooltip>
           <name>ПодразделениеРасширеннаяПодсказка</name>
           <id>301</id>
@@ -977,9 +950,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ВходВПрограммуРазрешен</segments>
-      </dataPath>
       <titleLocation>Right</titleLocation>
       <toolTip>
         <key>ru</key>
@@ -1045,7 +1015,7 @@
           </extInfo>
         </extendedTooltip>
         <type>Hyperlink</type>
-        <commandName>Form.Command.ИзменитьОграничениеНаВходВПрограмму</commandName>
+        <commandName>0</commandName>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1132,7 +1102,7 @@
       <type>Label</type>
       <autoMaxHeight>true</autoMaxHeight>
       <textColor xsi:type="core:ColorRef">
-        <color>Style.ПоясняющийТекст</color>
+        <color>0</color>
       </textColor>
       <extInfo xsi:type="form:LabelDecorationExtInfo">
         <horizontalAlign>Left</horizontalAlign>
@@ -1194,9 +1164,6 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:DataPath">
-                <segments>ПользовательИБИмя</segments>
-              </dataPath>
               <extendedTooltip>
                 <name>ПользовательИБИмя1РасширеннаяПодсказка</name>
                 <id>222</id>
@@ -1278,9 +1245,6 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:DataPath">
-                <segments>ПользовательИБИмя</segments>
-              </dataPath>
               <extendedTooltip>
                 <name>ПользовательИБИмя2РасширеннаяПодсказка</name>
                 <id>257</id>
@@ -1390,9 +1354,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>ПользовательИБАутентификацияСтандартная</segments>
-            </dataPath>
             <titleLocation>Right</titleLocation>
             <toolTip>
               <key>ru</key>
@@ -1521,7 +1482,7 @@
                   <type>Label</type>
                   <autoMaxHeight>true</autoMaxHeight>
                   <textColor xsi:type="core:ColorRef">
-                    <color>Style.ПоясняющийТекст</color>
+                    <color>0</color>
                   </textColor>
                   <extInfo xsi:type="form:LabelDecorationExtInfo">
                     <horizontalAlign>Left</horizontalAlign>
@@ -1551,7 +1512,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <type>UsualButton</type>
-                  <commandName>Form.Command.СменитьПароль</commandName>
+                  <commandName>0</commandName>
                   <representation>Auto</representation>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -1600,9 +1561,6 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:DataPath">
-                  <segments>ПотребоватьСменуПароляПриВходе</segments>
-                </dataPath>
                 <titleLocation>Right</titleLocation>
                 <toolTipRepresentation>Button</toolTipRepresentation>
                 <extendedTooltip>
@@ -1646,9 +1604,6 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:DataPath">
-                  <segments>ПользовательИБЗапрещеноИзменятьПароль</segments>
-                </dataPath>
                 <titleLocation>Right</titleLocation>
                 <toolTip>
                   <key>ru</key>
@@ -1696,9 +1651,6 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:DataPath">
-                  <segments>ПользовательИБЗапрещеноВосстанавливатьПароль</segments>
-                </dataPath>
                 <titleLocation>Right</titleLocation>
                 <extendedTooltip>
                   <name>ПользовательИБЗапрещеноВосстанавливатьПарольРасширеннаяПодсказка</name>
@@ -1740,9 +1692,6 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:DataPath">
-                  <segments>ПользовательИБПоказыватьВСпискеВыбора</segments>
-                </dataPath>
                 <titleLocation>Right</titleLocation>
                 <extendedTooltip>
                   <name>ПользовательИБПоказыватьВСпискеВыбораРасширеннаяПодсказка</name>
@@ -1888,9 +1837,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>ПользовательИБАутентификацияOpenID</segments>
-            </dataPath>
             <titleLocation>Right</titleLocation>
             <toolTip>
               <key>ru</key>
@@ -1974,9 +1920,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>ПользовательИБАутентификацияОС</segments>
-            </dataPath>
             <titleLocation>Right</titleLocation>
             <toolTip>
               <key>ru</key>
@@ -2067,9 +2010,6 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:DataPath">
-                <segments>ПользовательИБПользовательОС</segments>
-              </dataPath>
               <titleLocation>Left</titleLocation>
               <toolTip>
                 <key>ru</key>
@@ -2195,9 +2135,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>ПользовательИБЯзык</segments>
-            </dataPath>
             <extendedTooltip>
               <name>ПользовательИБЯзыкРасширеннаяПодсказка</name>
               <id>237</id>
@@ -2250,9 +2187,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>ПользовательИБРежимЗапуска</segments>
-            </dataPath>
             <extendedTooltip>
               <name>ПользовательИБРежимЗапускаРасширеннаяПодсказка</name>
               <id>238</id>
@@ -2377,23 +2311,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Роли</segments>
-          </dataPath>
           <skipOnInput>false</skipOnInput>
           <titleLocation>Top</titleLocation>
-          <excludedCommands>Add</excludedCommands>
-          <excludedCommands>Change</excludedCommands>
-          <excludedCommands>Copy</excludedCommands>
-          <excludedCommands>Delete</excludedCommands>
-          <excludedCommands>EndEdit</excludedCommands>
-          <excludedCommands>HierarchicalList</excludedCommands>
-          <excludedCommands>List</excludedCommands>
-          <excludedCommands>MoveDown</excludedCommands>
-          <excludedCommands>MoveUp</excludedCommands>
-          <excludedCommands>SortListAsc</excludedCommands>
-          <excludedCommands>SortListDesc</excludedCommands>
-          <excludedCommands>Tree</excludedCommands>
           <items xsi:type="form:FormGroup">
             <name>РолиКолонок</name>
             <id>180</id>
@@ -2405,9 +2324,6 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:DataPath">
-                <segments>Роли.Пометка</segments>
-              </dataPath>
               <extendedTooltip>
                 <name>РолиПометкаExtendedTooltip</name>
                 <id>246</id>
@@ -2446,9 +2362,6 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:DataPath">
-                <segments>Роли.Синоним</segments>
-              </dataPath>
               <extendedTooltip>
                 <name>РолиСинонимExtendedTooltip</name>
                 <id>247</id>
@@ -2546,7 +2459,7 @@
                   <horizontalAlign>Left</horizontalAlign>
                 </extInfo>
               </extendedTooltip>
-              <commandName>Form.Command.ВключитьРоли</commandName>
+              <commandName>0</commandName>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -2578,7 +2491,7 @@
                   <horizontalAlign>Left</horizontalAlign>
                 </extInfo>
               </extendedTooltip>
-              <commandName>Form.Command.ИсключитьРоли</commandName>
+              <commandName>0</commandName>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -2610,7 +2523,7 @@
                   <horizontalAlign>Left</horizontalAlign>
                 </extInfo>
               </extendedTooltip>
-              <commandName>Form.Command.ПоказатьТолькоВыбранныеРоли</commandName>
+              <commandName>0</commandName>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -2641,7 +2554,7 @@
                   <horizontalAlign>Left</horizontalAlign>
                 </extInfo>
               </extendedTooltip>
-              <commandName>Form.Command.ГруппировкаРолейПоПодсистемам</commandName>
+              <commandName>0</commandName>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -2844,9 +2757,6 @@
           <verticalStretch>true</verticalStretch>
           <enableStartDrag>true</enableStartDrag>
           <enableDrag>true</enableDrag>
-          <rowPictureDataPath xsi:type="form:DataPath">
-            <segments>Роли.НомерКартинки</segments>
-          </rowPictureDataPath>
           <rowsPicture xsi:type="core:PictureRef">
             <picture>CommonPicture.ПиктограммыЭлементов</picture>
           </rowsPicture>
@@ -2991,9 +2901,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Комментарий</segments>
-        </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
           <name>КомментарийExtendedTooltip</name>
@@ -3119,7 +3026,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.ЗаписатьИЗакрыть</commandName>
+      <commandName>0</commandName>
       <defaultButton>true</defaultButton>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -3184,7 +3091,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.ВыбратьФотографию</commandName>
+      <commandName>0</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -3215,7 +3122,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.ОчиститьФотографию</commandName>
+      <commandName>0</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -3377,7 +3284,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.StandardCommand.Help</commandName>
+      <commandName>0</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -3392,7 +3299,6 @@
     </userVisible>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
-  <excludedCommands>WriteAndClose</excludedCommands>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -3406,5 +3312,4 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:CatalogFormExtInfo"/>
 </form:Form>
