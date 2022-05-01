@@ -14,6 +14,46 @@
     <objectModule>Extended</objectModule>
     <managerModule>Extended</managerModule>
   </extension>
+  <attributes uuid="78250f83-c5c4-4027-8fc9-c7d4a8a2670a" extendedConfigurationObject="cc8e3172-491d-45d8-a7eb-fc6c400845cb">
+    <name>Подразделение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.Подразделение</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="7ec2a4b7-587a-4835-b942-15581ed355a1" extendedConfigurationObject="d7cfc87f-ac09-44aa-91d9-6511c408c5cb">
+    <name>ФизическоеЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ФизическоеЛицо</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="6a9e57a1-5f4c-4ad8-a930-59bbbe052da3" extendedConfigurationObject="7ee1e0d0-9735-45da-bd24-c0dbabfd5b1e">
+    <name>Комментарий</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers/>
+      </typeExtension>
+    </extension>
+  </attributes>
   <forms uuid="ecc8bb19-38ad-4e06-847d-e98b81ab3cc3" extendedConfigurationObject="cb92dc2e-6053-4233-a408-4464514b1257">
     <name>ФормаЭлемента</name>
     <objectBelonging>Adopted</objectBelonging>

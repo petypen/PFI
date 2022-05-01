@@ -46,5 +46,9 @@
   <commonPictures>CommonPicture.Отчеты</commonPictures>
   <roles>Role.PEN007_ОсновнаяРоль</roles>
   <commonModules>CommonModule.ПФИ</commonModules>
+  <definedTypes>DefinedType.Подразделение</definedTypes>
+  <definedTypes>DefinedType.ФизическоеЛицо</definedTypes>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog._ДемоПодразделения</catalogs>
+  <catalogs>Catalog._ДемоФизическиеЛица</catalogs>
 </mdclass:Configuration>
